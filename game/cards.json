@@ -1,15 +1,1131 @@
 {
-  "id": "jason_human_scout",
-  "name": "Jason (Human Scout)",
-  "image": "assets/cards/jason_human_scout.png",
+  "cards": [
+    {
+      "id": "jason_human_scout",
+      "name": "Jason (Human Scout)",
+      "image": "assets/cards/jason_human_scout.png",
+      "cost": 1,
+      "types": ["Human", "Ranger"],
+      "subtypes": ["Jason"],
+      "attack": 1,
+      "health": 2,
+      "shield": null,
+      "keywords": [],
+      "text": [
+        "Choose 1:",
+        "Exhaust: Search your deck for a Ranger card, reveal it, add it to your hand, then shuffle.",
+        "Exhaust: Give a unit +1/+1."
+      ],
+      "set": "set_1",
+      "rarity": "common",
+      "unique": false
+    },
+    {
+      "id": "jason_battle_hardened",
+      "name": "Jason (Battle Hardened)",
+      "image": "assets/cards/jason_battle_hardened.png",
+      "cost": 3,
+      "types": ["Human", "Ranger"],
+      "subtypes": ["Jason"],
+      "attack": 3,
+      "health": 3,
+      "shield": null,
+      "keywords": [],
+      "text": [
+        "When this enters play, give another Ranger +2/+0 this turn."
+      ],
+      "set": "set_1",
+      "rarity": "common",
+      "unique": false
+    },
+    {
+      "id": "jason_red_ranger",
+      "name": "Jason (Red Ranger)",
+      "image": "assets/cards/jason_red_ranger.png",
+      "cost": 4,
+      "types": ["Ranger"],
+      "subtypes": ["Jason", "Red"],
+      "attack": 4,
+      "health": null,
+      "shield": 4,
+      "keywords": ["MORPH"],
+      "text": [
+        "On Play: On attack +1 damage vs Villains."
+      ],
+      "set": "set_1",
+      "rarity": "common",
+      "unique": false
+    },
+    {
+      "id": "billy_human_scout",
+      "name": "Billy (Human Scout)",
+      "image": "assets/cards/billy_human_scout.png",
+      "cost": 1,
+      "types": ["Human", "Ranger"],
+      "subtypes": ["Billy"],
+      "attack": 1,
+      "health": 2,
+      "shield": null,
+      "keywords": [],
+      "text": [
+        "Choose 1:",
+        "Exhaust: Search your deck for a Ranger card, reveal it, add it to your hand, then shuffle.",
+        "Exhaust: Search your deck for a Gear card, reveal it, add it to your hand, then shuffle."
+      ],
+      "set": "set_1",
+      "rarity": "common",
+      "unique": false
+    },
+    {
+      "id": "billy_analyzer",
+      "name": "Billy (Analyzer)",
+      "image": "assets/cards/billy_analyzer.png",
+      "cost": 3,
+      "types": ["Human", "Ranger"],
+      "subtypes": ["Billy"],
+      "attack": 3,
+      "health": 3,
+      "shield": null,
+      "keywords": [],
+      "text": [
+        "On Play: Look at the top 3 cards of your deck.",
+        "Add one to your hand, shuffle the rest."
+      ],
+      "set": "set_1",
+      "rarity": "common",
+      "unique": false
+    },
+    {
+      "id": "billy_blue_ranger",
+      "name": "Billy (Blue Ranger)",
+      "image": "assets/cards/billy_blue_ranger.png",
+      "cost": 4,
+      "types": ["Ranger"],
+      "subtypes": ["Billy", "Blue"],
+      "attack": 3,
+      "health": null,
+      "shield": 4,
+      "keywords": ["MORPH"],
+      "text": [
+        "On Play: Draw a card."
+      ],
+      "set": "set_1",
+      "rarity": "common",
+      "unique": false
+    }
+  ]
+}
+,
+{
+  "id": "zack_human_scout",
+  "name": "Zack (Human Scout)",
+  "image": "assets/cards/zack_human_scout.png",
   "cost": 1,
   "types": ["Human", "Ranger"],
+  "subtypes": ["Zack"],
   "attack": 1,
   "health": 2,
+  "shield": null,
   "keywords": [],
   "text": [
     "Choose 1:",
     "Exhaust: Search your deck for a Ranger card, reveal it, add it to your hand, then shuffle.",
-    "Exhaust: Give a unit +1/+1."
-  ]
+    "Exhaust: Give a unit the CHARGE keyword.",
+    "If you control 2 or more Rangers, trigger both effects."
+  ],
+  "set": "set_1",
+  "rarity": "common",
+  "unique": false
+},
+{
+  "id": "zack_breakdancer_assault",
+  "name": "Zack (Breakdancer Assault)",
+  "image": "assets/cards/zack_breakdancer_assault.png",
+  "cost": 3,
+  "types": ["Human", "Ranger"],
+  "subtypes": ["Zack"],
+  "attack": 3,
+  "health": 2,
+  "shield": null,
+  "keywords": [],
+  "text": [
+    "When this enters play, deal 2 damage to a damaged unit."
+  ],
+  "set": "set_1",
+  "rarity": "common",
+  "unique": false
+},
+{
+  "id": "zack_black_ranger",
+  "name": "Zack (Black Ranger)",
+  "image": "assets/cards/zack_black_ranger.png",
+  "cost": 4,
+  "types": ["Ranger"],
+  "subtypes": ["Zack", "Black"],
+  "attack": 4,
+  "health": null,
+  "shield": 3,
+  "keywords": ["CHARGE", "MORPH"],
+  "text": [
+    "This can attack the turn it is played."
+  ],
+  "set": "set_1",
+  "rarity": "common",
+  "unique": false
+},
+{
+  "id": "trini_human_scout",
+  "name": "Trini (Human Scout)",
+  "image": "assets/cards/trini_human_scout.png",
+  "cost": 1,
+  "types": ["Human", "Ranger"],
+  "subtypes": ["Trini"],
+  "attack": 1,
+  "health": 2,
+  "shield": null,
+  "keywords": [],
+  "text": [
+    "Choose 1:",
+    "Exhaust: Search your deck for a Ranger card, reveal it, add it to your hand, then shuffle.",
+    "Exhaust: Give a unit the GUARD keyword.",
+    "If you control 2 or more Rangers, trigger both effects."
+  ],
+  "set": "set_1",
+  "rarity": "common",
+  "unique": false
+},
+{
+  "id": "trini_protective_instinct",
+  "name": "Trini (Protective Instinct)",
+  "image": "assets/cards/trini_protective_instinct.png",
+  "cost": 3,
+  "types": ["Human", "Ranger"],
+  "subtypes": ["Trini"],
+  "attack": 3,
+  "health": 4,
+  "shield": null,
+  "keywords": [],
+  "text": [
+    "When this enters play, another Ranger gains GUARD this turn."
+  ],
+  "set": "set_1",
+  "rarity": "common",
+  "unique": false
+},
+{
+  "id": "trini_yellow_ranger",
+  "name": "Trini (Yellow Ranger)",
+  "image": "assets/cards/trini_yellow_ranger.png",
+  "cost": 4,
+  "types": ["Ranger"],
+  "subtypes": ["Trini", "Yellow"],
+  "attack": 3,
+  "health": null,
+  "shield": 5,
+  "keywords": ["MORPH"],
+  "text": [
+    "On Play: Give a unit +1/+2."
+  ],
+  "set": "set_1",
+  "rarity": "common",
+  "unique": false
+},
+{
+  "id": "kimberly_human_scout",
+  "name": "Kimberly (Human Scout)",
+  "image": "assets/cards/kimberly_human_scout.png",
+  "cost": 1,
+  "types": ["Human", "Ranger"],
+  "subtypes": ["Kimberly"],
+  "attack": 1,
+  "health": 2,
+  "shield": null,
+  "keywords": [],
+  "text": [
+    "Choose 1:",
+    "Exhaust: Search your deck for a Ranger card, reveal it, add it to your hand, then shuffle.",
+    "Exhaust: Deal 1 damage to a target unit.",
+    "If you control 2 or more Rangers, trigger both effects."
+  ],
+  "set": "set_1",
+  "rarity": "common",
+  "unique": false
+},
+{
+  "id": "kimberly_precision_focus",
+  "name": "Kimberly (Precision Focus)",
+  "image": "assets/cards/kimberly_precision_focus.png",
+  "cost": 3,
+  "types": ["Human", "Ranger"],
+  "subtypes": ["Kimberly"],
+  "attack": 3,
+  "health": 3,
+  "shield": null,
+  "keywords": [],
+  "text": [
+    "On Play: Deal 2 damage to a unit with 2 or less health."
+  ],
+  "set": "set_1",
+  "rarity": "common",
+  "unique": false
+},
+{
+  "id": "kimberly_pink_ranger",
+  "name": "Kimberly (Pink Ranger)",
+  "image": "assets/cards/kimberly_pink_ranger.png",
+  "cost": 4,
+  "types": ["Ranger"],
+  "subtypes": ["Kimberly", "Pink"],
+  "attack": 3,
+  "health": null,
+  "shield": 3,
+  "keywords": ["MORPH"],
+  "text": [
+    "On Play: Deal 2 damage to any unit."
+  ],
+  "set": "set_1",
+  "rarity": "common",
+  "unique": false
+},
+{
+  "id": "blade_blaster",
+  "name": "Blade Blaster",
+  "image": "assets/cards/blade_blaster.png",
+  "cost": 2,
+  "types": ["Gear"],
+  "subtypes": [],
+  "attack": null,
+  "health": null,
+  "shield": null,
+  "keywords": [],
+  "text": [
+    "Equipped unit gains:",
+    "Exhaust: Deal 1 damage to any target."
+  ],
+  "set": "set_1",
+  "rarity": "common",
+  "unique": false
+},
+{
+  "id": "power_morpher",
+  "name": "Power Morpher",
+  "image": "assets/cards/power_morpher.png",
+  "cost": 2,
+  "types": ["Gear"],
+  "subtypes": [],
+  "attack": null,
+  "health": null,
+  "shield": null,
+  "keywords": [],
+  "text": [
+    "When you equip this to a Human / Ranger:",
+    "You may play a Ranger form of that unit from your hand, reducing its cost by 1.",
+    "MORPH is counted as instant speed."
+  ],
+  "set": "set_1",
+  "rarity": "uncommon",
+  "unique": false
+},
+{
+  "id": "power_axe",
+  "name": "Power Axe",
+  "image": "assets/cards/power_axe.png",
+  "cost": 3,
+  "types": ["Gear"],
+  "subtypes": [],
+  "attack": null,
+  "health": null,
+  "shield": null,
+  "keywords": [],
+  "text": [
+    "Equipped Ranger gains +0/+2."
+  ],
+  "set": "set_1",
+  "rarity": "common",
+  "unique": false
+},
+{
+  "id": "power_bow",
+  "name": "Power Bow",
+  "image": "assets/cards/power_bow.png",
+  "cost": 3,
+  "types": ["Gear"],
+  "subtypes": [],
+  "attack": null,
+  "health": null,
+  "shield": null,
+  "keywords": [],
+  "text": [
+    "Equipped Ranger gains:",
+    "When this attacks, deal 1 damage to any target."
+  ],
+  "set": "set_1",
+  "rarity": "common",
+  "unique": false
+},
+{
+  "id": "zordon",
+  "name": "Zordon",
+  "image": "assets/cards/zordon.png",
+  "cost": 3,
+  "types": ["Neutral"],
+  "subtypes": [],
+  "attack": null,
+  "health": null,
+  "shield": null,
+  "keywords": [],
+  "text": [
+    "Search your deck for a Ranger card, MORPH it instantly ignoring the cost or reveal it and add it to your hand."
+  ],
+  "set": "set_1",
+  "rarity": "rare",
+  "unique": true
+},
+{
+  "id": "alpha_5",
+  "name": "Alpha 5",
+  "image": "assets/cards/alpha_5.png",
+  "cost": 2,
+  "types": ["Neutral"],
+  "subtypes": [],
+  "attack": null,
+  "health": null,
+  "shield": null,
+  "keywords": [],
+  "text": [
+    "Gain +3 stored energy next turn."
+  ],
+  "set": "set_1",
+  "rarity": "uncommon",
+  "unique": true
+},
+{
+  "id": "we_need_megazord_power_now",
+  "name": "We Need Megazord Power Now!",
+  "image": "assets/cards/we_need_megazord_power_now.png",
+  "cost": 2,
+  "types": ["Action"],
+  "subtypes": [],
+  "attack": null,
+  "health": null,
+  "shield": null,
+  "keywords": [],
+  "text": [
+    "Choose one:",
+    "Search your deck for a Megazord or Zord, reveal it, add it to your hand, then shuffle.",
+    "Reduce the cost of the next Megazord you play this turn by 3."
+  ],
+  "set": "set_1",
+  "rarity": "uncommon",
+  "unique": false
+},
+{
+  "id": "power_blaster",
+  "name": "Power Blaster",
+  "image": "assets/cards/power_blaster.png",
+  "cost": 5,
+  "types": ["Action"],
+  "subtypes": [],
+  "attack": null,
+  "health": null,
+  "shield": null,
+  "keywords": [],
+  "text": [
+    "Deal 5 damage to any target.",
+    "If you control 3 or more Rangers, deal 7 damage instead."
+  ],
+  "set": "set_1",
+  "rarity": "rare",
+  "unique": false
+},
+{
+  "id": "recruit_teenagers_with_attitude",
+  "name": "Recruit Teenagers with Attitude!",
+  "image": "assets/cards/recruit_teenagers_with_attitude.png",
+  "cost": 2,
+  "types": ["Action"],
+  "subtypes": [],
+  "attack": null,
+  "health": null,
+  "shield": null,
+  "keywords": [],
+  "text": [
+    "Draw 2 cards, then discard 1.",
+    "If you control a Ranger, gain +1 stored energy."
+  ],
+  "set": "set_1",
+  "rarity": "common",
+  "unique": false
+},
+{
+  "id": "its_morphin_time",
+  "name": "It's Morphin Time!",
+  "image": "assets/cards/its_morphin_time.png",
+  "cost": 10,
+  "types": ["Action"],
+  "subtypes": [],
+  "attack": null,
+  "health": null,
+  "shield": null,
+  "keywords": [],
+  "text": [
+    "Morph all units in your command zone as possible from hand, deck or discard.",
+    "Reduce the cost of this card by 1 for each Human and Ranger you control."
+  ],
+  "set": "set_1",
+  "rarity": "rare",
+  "unique": false
+}
+,
+{
+  "id": "putty_scout",
+  "name": "Putty Scout",
+  "image": "assets/cards/putty_scout.png",
+  "cost": 1,
+  "types": ["Minion"],
+  "subtypes": ["Putty"],
+  "attack": 1,
+  "health": 1,
+  "shield": null,
+  "keywords": ["SWARM"],
+  "text": [
+    "SWARM: When this enters play, if you played another Putty this turn, summon another Putty Scout."
+  ],
+  "set": "set_1",
+  "rarity": "common",
+  "unique": false
+},
+{
+  "id": "putty_reinforcements",
+  "name": "Putty Reinforcements",
+  "image": "assets/cards/putty_reinforcements.png",
+  "cost": 2,
+  "types": ["Action"],
+  "subtypes": [],
+  "attack": null,
+  "health": null,
+  "shield": null,
+  "keywords": [],
+  "text": [
+    "Summon 2 Putty Scouts.",
+    "If you control a Villain, summon 3 instead."
+  ],
+  "set": "set_1",
+  "rarity": "common",
+  "unique": false
+},
+{
+  "id": "putty_guard",
+  "name": "Putty Guard",
+  "image": "assets/cards/putty_guard.png",
+  "cost": 2,
+  "types": ["Minion"],
+  "subtypes": ["Putty"],
+  "attack": 1,
+  "health": 3,
+  "shield": null,
+  "keywords": ["GUARD"],
+  "text": [
+    "GUARD: Must be targeted first if able."
+  ],
+  "set": "set_1",
+  "rarity": "common",
+  "unique": false
+},
+{
+  "id": "putty_commander",
+  "name": "Putty Commander",
+  "image": "assets/cards/putty_commander.png",
+  "cost": 3,
+  "types": ["Minion"],
+  "subtypes": ["Putty"],
+  "attack": 2,
+  "health": 3,
+  "shield": null,
+  "keywords": [],
+  "text": [
+    "Your Putty units gain +1/+0.",
+    "On Play: Summon a Putty Scout."
+  ],
+  "set": "set_1",
+  "rarity": "uncommon",
+  "unique": false
+},
+{
+  "id": "rita_repulsa",
+  "name": "Rita Repulsa",
+  "image": "assets/cards/rita_repulsa.png",
+  "cost": 4,
+  "types": ["Villain"],
+  "subtypes": ["Leader"],
+  "attack": 3,
+  "health": 5,
+  "shield": null,
+  "keywords": [],
+  "text": [
+    "On Play: Summon a Putty Scout.",
+    "At end of turn, if you played a Monster this turn, summon a Putty Scout."
+  ],
+  "set": "set_1",
+  "rarity": "rare",
+  "unique": true
+},
+{
+  "id": "goldar",
+  "name": "Goldar",
+  "image": "assets/cards/goldar.png",
+  "cost": 5,
+  "types": ["Villain"],
+  "subtypes": [],
+  "attack": 5,
+  "health": 5,
+  "shield": null,
+  "keywords": ["OVERWHELM"],
+  "text": [
+    "OVERWHELM",
+    "On Play: Destroy a damaged unit."
+  ],
+  "set": "set_1",
+  "rarity": "rare",
+  "unique": true
+},
+{
+  "id": "scorpina",
+  "name": "Scorpina",
+  "image": "assets/cards/scorpina.png",
+  "cost": 4,
+  "types": ["Villain"],
+  "subtypes": [],
+  "attack": 4,
+  "health": 4,
+  "shield": null,
+  "keywords": ["CHARGE"],
+  "text": [
+    "CHARGE",
+    "On Play: Deal 2 damage to a unit."
+  ],
+  "set": "set_1",
+  "rarity": "uncommon",
+  "unique": true
+},
+{
+  "id": "finster",
+  "name": "Finster",
+  "image": "assets/cards/finster.png",
+  "cost": 3,
+  "types": ["Villain"],
+  "subtypes": [],
+  "attack": 2,
+  "health": 4,
+  "shield": null,
+  "keywords": [],
+  "text": [
+    "On Play: Search your deck for a Monster, reveal it, add it to your hand, then shuffle.",
+    "Reduce the cost of the next Monster you play by 1."
+  ],
+  "set": "set_1",
+  "rarity": "rare",
+  "unique": true
+},
+{
+  "id": "make_my_monster_grow",
+  "name": "Make My Monster Grow!",
+  "image": "assets/cards/make_my_monster_grow.png",
+  "cost": 3,
+  "types": ["Action"],
+  "subtypes": [],
+  "attack": null,
+  "health": null,
+  "shield": null,
+  "keywords": [],
+  "text": [
+    "Choose a Monster you control:",
+    "Destroy it, then summon its Giant form from your deck or discard."
+  ],
+  "set": "set_1",
+  "rarity": "rare",
+  "unique": false
+},
+{
+  "id": "overwhelming_forces",
+  "name": "Overwhelming Forces",
+  "image": "assets/cards/overwhelming_forces.png",
+  "cost": 4,
+  "types": ["Action"],
+  "subtypes": [],
+  "attack": null,
+  "health": null,
+  "shield": null,
+  "keywords": [],
+  "text": [
+    "All your units gain +2/+0 this turn.",
+    "Putty units gain an additional +1/+0."
+  ],
+  "set": "set_1",
+  "rarity": "uncommon",
+  "unique": false
+}
+,
+{
+  "id": "gnarly_gnome",
+  "name": "Gnarly Gnome",
+  "image": "assets/cards/gnarly_gnome.png",
+  "cost": 4,
+  "types": ["Monster"],
+  "subtypes": [],
+  "attack": 3,
+  "health": 5,
+  "shield": null,
+  "keywords": ["LAST_BREATH"],
+  "text": [
+    "On Play: Reduce the cost of the next Monster you play by 2.",
+    "LAST BREATH: You may summon Giant Gnarly Gnome by paying its cost."
+  ],
+  "set": "set_1",
+  "rarity": "common",
+  "unique": false
+},
+{
+  "id": "giant_gnarly_gnome",
+  "name": "Giant Gnarly Gnome",
+  "image": "assets/cards/giant_gnarly_gnome.png",
+  "cost": 8,
+  "types": ["Giant"],
+  "subtypes": [],
+  "attack": 8,
+  "health": 8,
+  "shield": null,
+  "keywords": ["OVERWHELM"],
+  "text": [
+    "OVERWHELM",
+    "On Play: Reduce the cost of your next Monster by 4 (minimum 1)."
+  ],
+  "set": "set_1",
+  "rarity": "rare",
+  "unique": false
+},
+{
+  "id": "pineoctopus",
+  "name": "Pineoctopus",
+  "image": "assets/cards/pineoctopus.png",
+  "cost": 5,
+  "types": ["Monster"],
+  "subtypes": [],
+  "attack": 4,
+  "health": 6,
+  "shield": null,
+  "keywords": ["LAST_BREATH"],
+  "text": [
+    "On Play: Deal 2 damage to all enemy units.",
+    "LAST BREATH: You may summon Giant Pineoctopus by paying its cost."
+  ],
+  "set": "set_1",
+  "rarity": "common",
+  "unique": false
+},
+{
+  "id": "giant_pineoctopus",
+  "name": "Giant Pineoctopus",
+  "image": "assets/cards/giant_pineoctopus.png",
+  "cost": 9,
+  "types": ["Giant"],
+  "subtypes": [],
+  "attack": 9,
+  "health": 9,
+  "shield": null,
+  "keywords": ["OVERWHELM"],
+  "text": [
+    "OVERWHELM",
+    "On Play: Deal 3 damage to all enemy units."
+  ],
+  "set": "set_1",
+  "rarity": "rare",
+  "unique": false
+},
+{
+  "id": "samurai_fan_man",
+  "name": "Samurai Fan Man",
+  "image": "assets/cards/samurai_fan_man.png",
+  "cost": 4,
+  "types": ["Monster"],
+  "subtypes": [],
+  "attack": 3,
+  "health": 5,
+  "shield": null,
+  "keywords": ["LAST_BREATH"],
+  "text": [
+    "On Play: Exhaust an enemy unit.",
+    "LAST BREATH: You may summon Giant Samurai Fan Man by paying its cost."
+  ],
+  "set": "set_1",
+  "rarity": "common",
+  "unique": false
+},
+{
+  "id": "giant_samurai_fan_man",
+  "name": "Giant Samurai Fan Man",
+  "image": "assets/cards/giant_samurai_fan_man.png",
+  "cost": 8,
+  "types": ["Giant"],
+  "subtypes": [],
+  "attack": 8,
+  "health": 8,
+  "shield": null,
+  "keywords": ["OVERWHELM"],
+  "text": [
+    "OVERWHELM",
+    "On Play: Exhaust all enemy units."
+  ],
+  "set": "set_1",
+  "rarity": "rare",
+  "unique": false
+},
+{
+  "id": "frankenstein_monster",
+  "name": "Frankenstein's Monster",
+  "image": "assets/cards/frankenstein_monster.png",
+  "cost": 5,
+  "types": ["Monster"],
+  "subtypes": [],
+  "attack": 5,
+  "health": 6,
+  "shield": null,
+  "keywords": ["LAST_BREATH"],
+  "text": [
+    "On Play: Gain +2/+2 if you control a Villain.",
+    "LAST BREATH: You may summon Giant Frankenstein by paying its cost."
+  ],
+  "set": "set_1",
+  "rarity": "uncommon",
+  "unique": false
+},
+{
+  "id": "giant_frankenstein",
+  "name": "Giant Frankenstein",
+  "image": "assets/cards/giant_frankenstein.png",
+  "cost": 9,
+  "types": ["Giant"],
+  "subtypes": [],
+  "attack": 10,
+  "health": 10,
+  "shield": null,
+  "keywords": ["OVERWHELM"],
+  "text": [
+    "OVERWHELM",
+    "On Play: Gain +2/+2 for each Villain you control."
+  ],
+  "set": "set_1",
+  "rarity": "rare",
+  "unique": false
+},
+{
+  "id": "mutitus",
+  "name": "Mutitus",
+  "image": "assets/cards/mutitus.png",
+  "cost": 6,
+  "types": ["Monster"],
+  "subtypes": [],
+  "attack": 6,
+  "health": 7,
+  "shield": null,
+  "keywords": ["LAST_BREATH"],
+  "text": [
+    "On Play: Deal 3 damage to a unit.",
+    "LAST BREATH: You may summon Giant Mutitus by paying its cost."
+  ],
+  "set": "set_1",
+  "rarity": "rare",
+  "unique": true
+},
+{
+  "id": "giant_mutitus",
+  "name": "Giant Mutitus",
+  "image": "assets/cards/giant_mutitus.png",
+  "cost": 10,
+  "types": ["Giant"],
+  "subtypes": [],
+  "attack": 12,
+  "health": 12,
+  "shield": null,
+  "keywords": ["OVERWHELM"],
+  "text": [
+    "OVERWHELM",
+    "On Play: Deal 5 damage to all enemy units."
+  ],
+  "set": "set_1",
+  "rarity": "legendary",
+  "unique": true
+}
+,
+{
+  "id": "tyrannosaurus_zord",
+  "name": "Tyrannosaurus Zord",
+  "image": "assets/cards/tyrannosaurus_zord.png",
+  "cost": 5,
+  "types": ["Zord"],
+  "subtypes": ["Dinozord"],
+  "attack": 5,
+  "health": 5,
+  "shield": null,
+  "keywords": ["PILOT"],
+  "text": [
+    "PILOT: Play this on top of a Ranger unit and gain that unit's stats.",
+    "This gains +1/+1 for each other Zord you control."
+  ],
+  "set": "set_1",
+  "rarity": "common",
+  "unique": false
+},
+{
+  "id": "sabertooth_tiger_zord",
+  "name": "Sabertooth Tiger Zord",
+  "image": "assets/cards/sabertooth_tiger_zord.png",
+  "cost": 4,
+  "types": ["Zord"],
+  "subtypes": ["Dinozord"],
+  "attack": 4,
+  "health": 4,
+  "shield": null,
+  "keywords": ["PILOT"],
+  "text": [
+    "PILOT: Play this on top of a Ranger unit and gain that unit's stats.",
+    "When this enters play, give another unit +1/+1."
+  ],
+  "set": "set_1",
+  "rarity": "common",
+  "unique": false
+},
+{
+  "id": "triceratops_zord",
+  "name": "Triceratops Zord",
+  "image": "assets/cards/triceratops_zord.png",
+  "cost": 5,
+  "types": ["Zord"],
+  "subtypes": ["Dinozord"],
+  "attack": 4,
+  "health": 6,
+  "shield": null,
+  "keywords": ["PILOT"],
+  "text": [
+    "PILOT: Play this on top of a Ranger unit and gain that unit's stats.",
+    "When this enters play, draw a card."
+  ],
+  "set": "set_1",
+  "rarity": "common",
+  "unique": false
+},
+{
+  "id": "mastodon_zord",
+  "name": "Mastodon Zord",
+  "image": "assets/cards/mastodon_zord.png",
+  "cost": 4,
+  "types": ["Zord"],
+  "subtypes": ["Dinozord"],
+  "attack": 4,
+  "health": 5,
+  "shield": null,
+  "keywords": ["GUARD", "PILOT"],
+  "text": [
+    "GUARD",
+    "PILOT: Play this on top of a Ranger unit and gain that unit's stats."
+  ],
+  "set": "set_1",
+  "rarity": "common",
+  "unique": false
+},
+{
+  "id": "pterodactyl_zord",
+  "name": "Pterodactyl Zord",
+  "image": "assets/cards/pterodactyl_zord.png",
+  "cost": 4,
+  "types": ["Zord"],
+  "subtypes": ["Dinozord"],
+  "attack": 3,
+  "health": 4,
+  "shield": null,
+  "keywords": ["PILOT"],
+  "text": [
+    "PILOT: Play this on top of a Ranger unit and gain that unit's stats.",
+    "When this enters play, deal 1 damage to any target."
+  ],
+  "set": "set_1",
+  "rarity": "common",
+  "unique": false
+},
+{
+  "id": "dragonzord_base",
+  "name": "Dragonzord (Base)",
+  "image": "assets/cards/dragonzord_base.png",
+  "cost": 6,
+  "types": ["Zord"],
+  "subtypes": ["Dragonzord"],
+  "attack": 6,
+  "health": 6,
+  "shield": null,
+  "keywords": ["PILOT"],
+  "text": [
+    "PILOT: Play this on top of a Ranger unit and gain that unit's stats.",
+    "When this enters play, deal 2 damage to all opposing units."
+  ],
+  "set": "set_1",
+  "rarity": "rare",
+  "unique": true
+},
+{
+  "id": "dragonzord_controlled",
+  "name": "Dragonzord — Controlled",
+  "image": "assets/cards/dragonzord_controlled.png",
+  "cost": 7,
+  "types": ["Zord"],
+  "subtypes": ["Dragonzord"],
+  "attack": 7,
+  "health": 7,
+  "shield": null,
+  "keywords": ["PILOT", "OVERWHELM"],
+  "text": [
+    "PILOT: Play this on top of a Ranger unit and gain that unit's stats.",
+    "OVERWHELM"
+  ],
+  "set": "set_1",
+  "rarity": "rare",
+  "unique": true
+},
+{
+  "id": "dino_tank_mode",
+  "name": "Dino Tank Mode",
+  "image": "assets/cards/dino_tank_mode.png",
+  "cost": 8,
+  "types": ["Zord"],
+  "subtypes": ["Utility"],
+  "attack": 6,
+  "health": 8,
+  "shield": null,
+  "keywords": ["GUARD"],
+  "text": [
+    "GUARD",
+    "On Play: Search your deck for a Megazord, reveal it, add it to your hand, then shuffle.",
+    "Exhaust: Discard a card. If you have a Megazord in hand, play it over this unit, paying reduced cost."
+  ],
+  "set": "set_1",
+  "rarity": "rare",
+  "unique": false
+},
+{
+  "id": "titanus_carrier_zord",
+  "name": "Titanus (Carrier Zord)",
+  "image": "assets/cards/titanus_carrier_zord.png",
+  "cost": 6,
+  "types": ["Zord"],
+  "subtypes": ["Carrier"],
+  "attack": 4,
+  "health": 8,
+  "shield": null,
+  "keywords": [],
+  "text": [
+    "Your Megazords cost 2 less."
+  ],
+  "set": "set_1",
+  "rarity": "rare",
+  "unique": true
+},
+{
+  "id": "zord_support_drone",
+  "name": "Zord Support Drone",
+  "image": "assets/cards/zord_support_drone.png",
+  "cost": 3,
+  "types": ["Zord"],
+  "subtypes": ["Support"],
+  "attack": 2,
+  "health": 3,
+  "shield": null,
+  "keywords": [],
+  "text": [
+    "Exhaust: Give my stats to a unit."
+  ],
+  "set": "set_1",
+  "rarity": "common",
+  "unique": false
+},
+{
+  "id": "repair_zord",
+  "name": "Repair Zord",
+  "image": "assets/cards/repair_zord.png",
+  "cost": 4,
+  "types": ["Zord"],
+  "subtypes": ["Support"],
+  "attack": 3,
+  "health": 5,
+  "shield": null,
+  "keywords": [],
+  "text": [
+    "On Play: Restore 3 health to a unit."
+  ],
+  "set": "set_1",
+  "rarity": "common",
+  "unique": false
+},
+{
+  "id": "dino_megazord",
+  "name": "Dino Megazord",
+  "image": "assets/cards/dino_megazord.png",
+  "cost": 15,
+  "types": ["Megazord"],
+  "subtypes": ["Dino Megazord"],
+  "attack": 12,
+  "health": 12,
+  "shield": null,
+  "keywords": ["OVERWHELM", "UNIQUE", "GARGANTUAN"],
+  "text": [
+    "OVERWHELM",
+    "UNIQUE: Only one of this card can be played in your deck.",
+    "GARGANTUAN: This unit may block as many targets as its controller wishes.",
+    "Cost reduced by 1 for each Ranger and Zord you control.",
+    "On Play: Place all Rangers and Zords you control under this card.",
+    "On Destruction: Play as many cards as possible from under this card to your command zones. These play powered down."
+  ],
+  "set": "set_1",
+  "rarity": "legendary",
+  "unique": true
+},
+{
+  "id": "dragonzord_battle_mode",
+  "name": "Dragonzord Battle Mode",
+  "image": "assets/cards/dragonzord_battle_mode.png",
+  "cost": 15,
+  "types": ["Megazord"],
+  "subtypes": ["Dragonzord Battle Mode"],
+  "attack": 13,
+  "health": 13,
+  "shield": null,
+  "keywords": ["OVERWHELM"],
+  "text": [
+    "OVERWHELM",
+    "Cost reduced by 1 for each Ranger and Zord you control.",
+    "Dragonzord must be used in the summon of this Megazord.",
+    "On Play: Place all Rangers and Zords you control under this card.",
+    "When this attacks: Its damage is dealt first in combat before retaliation damage."
+  ],
+  "set": "set_1",
+  "rarity": "legendary",
+  "unique": true
+},
+{
+  "id": "cyclopsis_doomsday_war_machine",
+  "name": "Cyclopsis (Doomsday War Machine)",
+  "image": "assets/cards/cyclopsis_doomsday_war_machine.png",
+  "cost": 10,
+  "types": ["Giant", "Boss"],
+  "subtypes": ["Cyclopsis"],
+  "attack": 10,
+  "health": 10,
+  "shield": null,
+  "keywords": ["OVERWHELM"],
+  "text": [
+    "OVERWHELM",
+    "On Play: Destroy up to 2 enemy units.",
+    "When this attacks: Deal 2 damage to all enemies."
+  ],
+  "set": "set_1",
+  "rarity": "legendary",
+  "unique": true
 }
