@@ -1,1 +1,54 @@
+{
+  "name": "Hero Starter",
+  "location": "command_center",
+  "cards": [
+    "jason_human_scout",
+    "jason_human_scout",
+    "jason_battle_hardened",
+    "jason_red_ranger",
 
+    "billy_human_scout",
+    "billy_human_scout",
+    "billy_analyzer",
+    "billy_blue_ranger",
+
+    "zack_human_scout",
+    "zack_human_scout",
+    "zack_breakdancer_assault",
+    "zack_black_ranger",
+
+    "trini_human_scout",
+    "trini_human_scout",
+    "trini_protective_instinct",
+    "trini_yellow_ranger",
+
+    "kimberly_human_scout",
+    "kimberly_human_scout",
+    "kimberly_precision_focus",
+    "kimberly_pink_ranger",
+
+    "power_morpher",
+    "power_morpher",
+    "blade_blaster",
+    "blade_blaster",
+    "power_axe",
+    "power_bow",
+
+    "zordon",
+    "alpha_5",
+
+    "recruit_teenagers_with_attitude",
+    "recruit_teenagers_with_attitude",
+    "power_blaster",
+    "we_need_megazord_power_now",
+    "its_morphin_time",
+
+    "tyrannosaurus_zord",
+    "triceratops_zord",
+    "mastodon_zord",
+    "sabertooth_tiger_zord",
+    "pterodactyl_zord",
+
+    "dino_megazord"
+  ]
+}
