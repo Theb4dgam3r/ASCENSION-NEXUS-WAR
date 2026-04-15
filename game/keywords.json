@@ -1,0 +1,9 @@
+{
+  "MORPH": "Reduce cost by the cost of matching Human to play.",
+  "PILOT": "Play this on top of a Ranger and combine stats.",
+  "GUARD": "Must be chosen as an attack or black target first if able.",
+  "CHARGE": "Can attack the turn it is played.",
+  "LAST_BREATH": "When destroyed, may summon Giant form.",
+  "OVERWHELM": "Excess damage hits the enemy Location.",
+  "HUNT": "Can choose active units as attack targets."
+}
