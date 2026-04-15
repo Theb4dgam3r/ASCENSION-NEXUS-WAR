@@ -1,0 +1,17 @@
+{
+  "attackToken": {
+    "enabled": true,
+    "switchEachRound": true
+  },
+  "energy": {
+    "gainPerRound": 1,
+    "max": 12,
+    "storedMax": 3,
+    "storedExpiresEndOfRound": true
+  },
+  "combat": {
+    "oneBlockerPerAttacker": true,
+    "exhaustedCannotBlock": true,
+    "exhaustedCanBeAttacked": true
+  }
+}
