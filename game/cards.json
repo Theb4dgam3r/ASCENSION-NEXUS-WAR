@@ -1,0 +1,15 @@
+{
+  "id": "jason_human_scout",
+  "name": "Jason (Human Scout)",
+  "image": "assets/cards/jason_human_scout.png",
+  "cost": 1,
+  "types": ["Human", "Ranger"],
+  "attack": 1,
+  "health": 2,
+  "keywords": [],
+  "text": [
+    "Choose 1:",
+    "Exhaust: Search your deck for a Ranger card, reveal it, add it to your hand, then shuffle.",
+    "Exhaust: Give a unit +1/+1."
+  ]
+}
