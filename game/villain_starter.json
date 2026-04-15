@@ -1,1 +1,41 @@
+{
+  "name": "Villain Starter",
+  "location": "moon_base",
+  "cards": [
+    "putty_scout",
+    "putty_scout",
+    "putty_scout",
+    "putty_scout",
 
+    "putty_guard",
+    "putty_guard",
+
+    "putty_commander",
+
+    "putty_reinforcements",
+    "putty_reinforcements",
+
+    "rita_repulsa",
+    "goldar",
+    "scorpina",
+    "finster",
+
+    "gnarly_gnome",
+    "gnarly_gnome",
+    "pineoctopus",
+    "samurai_fan_man",
+    "frankenstein_monster",
+    "mutitus",
+
+    "make_my_monster_grow",
+    "overwhelming_forces",
+
+    "giant_gnarly_gnome",
+    "giant_pineoctopus",
+    "giant_samurai_fan_man",
+    "giant_frankenstein",
+    "giant_mutitus",
+
+    "cyclopsis_doomsday_war_machine"
+  ]
+}
