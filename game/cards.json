@@ -1129,3 +1129,43 @@
   "rarity": "legendary",
   "unique": true
 }
+,
+{
+  "id": "command_center",
+  "name": "Command Center",
+  "image": "assets/cards/command_center.png",
+  "cost": null,
+  "types": ["Location"],
+  "subtypes": [],
+  "attack": null,
+  "health": 30,
+  "shield": null,
+  "keywords": [],
+  "text": [
+    "Deck Restriction: Your deck can only include Humans, Rangers and Zords.",
+    "Once per turn: When you play a Human or Ranger, draw 1 then discard 1.",
+    "If you have no cards in hand, you do not discard."
+  ],
+  "set": "set_1",
+  "rarity": "starter",
+  "unique": true
+},
+{
+  "id": "moon_base",
+  "name": "Moon Base",
+  "image": "assets/cards/moon_base.png",
+  "cost": null,
+  "types": ["Location"],
+  "subtypes": [],
+  "attack": null,
+  "health": 30,
+  "shield": null,
+  "keywords": [],
+  "text": [
+    "Deck Restriction: Your deck can only include Villains, Monsters and Putties.",
+    "End Step: If you played a Monster this turn, summon a Putty Scout."
+  ],
+  "set": "set_1",
+  "rarity": "starter",
+  "unique": true
+}
