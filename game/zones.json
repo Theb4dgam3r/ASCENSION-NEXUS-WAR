@@ -1,0 +1,11 @@
+{
+  "zones": [
+    "deck",
+    "hand",
+    "board",
+    "discard",
+    "energy",
+    "stored_energy",
+    "location"
+  ]
+}
